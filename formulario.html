@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="Ejemplo de HTML5" />
+        <meta name="keywords" content="HTML5,CSS3,JavaScript" />
+        <title>Formulario</title>
+    </head>
+    <body>
+         <div>
+             <form action="datos.html" method="POST">
+                 <fieldset>
+                 <legend>Contacto</legend>
+                     <label for="txtNombre">Nombre</label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtNombre" name="nombre" value="Jona" />
+                     <br/>
+                     <br/>
+                     <label for="txtCorreo">Correo electr&oacute;nico</label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtCorreo" name="correo" value="jlopez@cutonala.com" />
+                     <br/>
+                     <br/>
+                     <label for="txtAsunto">Asunto</label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtAsunto" name="asunto" />
+                     <br/>
+                     <br/>
+                     <label for="txtMensaje">Mensaje</label><br/>
+                     <textarea name="mensaje" cols="31" rows="10">Escriba su mensaje</textarea>
+                     <br/>
+                     <br/>
+                 </fieldset>
+                 <input type="submit" name="enviar" value="Guardar" />
+             </form>
+         </div>
+    </body>
+</html>
+
+
